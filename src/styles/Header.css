@@ -106,6 +106,7 @@
 
     .headerSection .hamBurgerMenu {
         display: block;
+        cursor: pointer;
     }
 
     .mobileViewNav {
