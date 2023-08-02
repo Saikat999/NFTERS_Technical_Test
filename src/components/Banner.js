@@ -3,6 +3,7 @@ import Banner1 from '../assets/images/banner/banner-1.png';
 import Artwork from '../assets/images/banner/artwork.png';
 import Auction from '../assets/images/banner/auction.png';
 import Artist from '../assets/images/banner/artist.png';
+import Ellipse from '../assets/images/collectionOver/ellipse95.png';
  
 import '../styles/Banner.css';
 
@@ -23,6 +24,36 @@ const Banner = () => {
                 </div>
                 <div className="bannerRight col-lg-5 col-md-6 col-sm-12">
                     <img src={Banner1} alt="Banner-1" />
+
+                    <div className='tp'>
+                        <div>
+                            Abstr Gradient NFT
+                        </div>
+
+                        <div>
+                            <span>
+                                <img src={Ellipse} alt='img'/>
+                            </span>
+                            <span>Arkhan17</span>
+                        </div>
+                    </div>
+                    {/* <div>
+                        <img src={circle} alt=''/>
+                    </div> */}
+                    <div className='bt'>
+                        <div>
+                            <span>Current Bid</span>
+                            <span>
+                             0.25 ETH</span>
+                        </div>
+                        <div>
+                            <span>Ends in</span>
+                            <span>12h  43m  42s</span>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>

@@ -36,6 +36,7 @@
     width: 400px;
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
 }
 
 .bannerRight img {
@@ -43,6 +44,83 @@
     width: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
+}
+
+.bannerRight .tp {
+    position: absolute;
+    top: 45px;
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+
+.bannerRight .tp > div:first-child {
+    color: #FFF;
+font-size: 28px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.4px;
+}
+
+.bannerRight .tp > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 155px;
+}
+
+.bannerRight .tp > div:last-child span:first-child {
+    width: 32px;
+    height: 32.821px;
+}
+
+.bannerRight .tp > div:last-child span:first-child img {
+    height: 100%;
+    width: 100%;
+    /* object-fit: contain; */
+}
+.bannerRight .tp > div:last-child span:last-child {
+    color: #FFF;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bannerRight .bt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    position: absolute;
+    bottom: 40px;
+    /* border: 1px solid; */
+    width: 294px;
+    height: 68px;
+    margin: 0 auto;
+    left: 53px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(25px);
+}
+
+.bannerRight .bt > div:first-child {
+    display: grid;
+    place-items: start;
+}
+
+.bannerRight .bt > div:last-child {
+    display: grid;
+    place-items: start;
+}
+
+.bannerRight .bt > div:first-child span,
+.bannerRight .bt > div:last-child span {
+    color: #fff;
 }
 
 
@@ -59,5 +137,22 @@
         border-radius: 8px;
         overflow: hidden;
         margin: 0 auto;
+    }
+    .bannerRight .bt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px;
+        position: absolute;
+        bottom: 40px;
+        /* border: 1px solid; */
+        width: 275px;
+        height: 68px;
+        margin: 0 auto;
+        left: 24px;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.20);
+        -webkit-backdrop-filter: blur(25px);
+        backdrop-filter: blur(25px);
     }
 }
